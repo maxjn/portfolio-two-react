@@ -2,9 +2,9 @@ function About() {
   return (
     <section
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white flex items-center"
+      className="px-10 lg:px-0 w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white flex items-center"
     >
-      <div className="max-w-screen-lg  mx-auto px-10 ">
+      <div className="max-w-screen-lg  mx-auto ">
         <div className="">
           <h3 className=" inline text-4xl border-b-4 border-gray-500">About</h3>
         </div>
