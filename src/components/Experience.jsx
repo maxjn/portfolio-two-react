@@ -3,7 +3,7 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import sass from "../assets/sass.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -46,8 +46,8 @@ const techs = [
   },
   {
     id: 7,
-    src: graphql,
-    title: "GraphQL",
+    src: sass,
+    title: "Sass",
     style: "shadow-pink-400",
   },
   {
@@ -61,7 +61,7 @@ const techs = [
 function Experience() {
   return (
     <section
-      name="portfolio"
+      name="experience"
       className="w-full h-full py-20 md:py-0 md:h-screen bg-gradient-to-b from-gray-800 via-black to-black text-white flex items-center px-10 lg:px-0"
     >
       <div className="max-w-screen-lg  mx-auto w-full ">

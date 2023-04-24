@@ -1,9 +1,13 @@
 import heroImage from "../assets/hero.jpg";
 import { MdArrowForwardIos } from "react-icons/md";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
-    <section className="pt-[5.5rem] pb-4 px-10 lg:px-0  text-white  bg-gradient-to-b from-black via-black to-gray-800 h-screen ">
+    <section
+      name="home"
+      className="pt-[5.5rem] pb-4 px-10 lg:px-0  text-white  bg-gradient-to-b from-black via-black to-gray-800 h-screen "
+    >
       <div className="container flex flex-col-reverse md:flex-row items-center justify-center max-w-screen-lg mx-auto h-full gap-6">
         {/* Hero Text */}
         <div>
@@ -27,12 +31,17 @@ function Home() {
             <b>Muhammad (Maxjn)</b>
           </p>
           <div>
-            <button className="group flex items-center my-2 py-3 px-6 w-fit bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg">
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              className="group flex items-center my-2 py-3 px-6 w-fit bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg cursor-pointer"
+            >
               Portfolio
               <span className="group-hover:rotate-90 ms-2 duration-300">
                 <MdArrowForwardIos />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         {/* Hero Image */}

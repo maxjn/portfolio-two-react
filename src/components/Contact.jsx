@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <section
-      name="portfolio"
+      name="contact"
       className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white flex items-center px-10 lg:px-0"
     >
       <div className="max-w-screen-lg  mx-auto ">

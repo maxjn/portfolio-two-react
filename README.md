@@ -2,7 +2,7 @@
 
 This is a simple portfolio application for practicing React & Tailwind.
 
-See [Live Project](https://maxjn-portfolio-two.pages.dev/).
+See [Live Project](https://maxjn-portfolio-first.pages.dev/).
 This Project was bootstrapped with [Vite](https://vitejs.dev/).
 
 ## Technologies
@@ -11,7 +11,7 @@ This Project was bootstrapped with [Vite](https://vitejs.dev/).
 - ES6
 - React
 - **react-icons** package for icons
-- **ract-smooth-scroll**
+- **ract-scroll** for smooth scrolling
 
 ## Features
 

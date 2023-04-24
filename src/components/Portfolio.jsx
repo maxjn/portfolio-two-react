@@ -1,46 +1,46 @@
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import foodDashbard from "../assets/portfolio/foodDashboard.png";
+import socialDashboard from "../assets/portfolio/socialDashboard.png";
+import starwars from "../assets/portfolio/starwars.png";
+import momoryGame from "../assets/portfolio/memory-game.png";
+import reduxTodolist from "../assets/portfolio/redux-todolist.png";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const portfolios = [
   {
     id: 1,
-    src: arrayDestruct,
-    demoLink: "",
-    codeLink: "",
+    src: foodDashbard,
+    demoLink: "https://maxjn-fooddashboard.pages.dev/",
+    codeLink: "https://github.com/maxjn/foodDashboard",
   },
   {
     id: 2,
-    src: installNode,
-    demoLink: "",
-    codeLink: "",
+    src: socialDashboard,
+    demoLink: "https://maxjn-dashboardtemplate.pages.dev/",
+    codeLink: "https://github.com/maxjn/dashboardTemplate",
   },
   {
     id: 3,
-    src: navbar,
-    demoLink: "",
-    codeLink: "",
+    src: starwars,
+    demoLink: "https://maxjn-starwars.pages.dev/people",
+    codeLink: "https://github.com/maxjn/starwars-react",
   },
   {
     id: 4,
-    src: reactParallax,
-    demoLink: "",
-    codeLink: "",
+    src: momoryGame,
+    demoLink: "https://maxjn-memory-game.pages.dev/",
+    codeLink: "https://github.com/maxjn/memmory-game-react",
   },
   {
     id: 5,
-    src: reactSmooth,
-    demoLink: "",
-    codeLink: "",
+    src: reduxTodolist,
+    demoLink: "https://maxjn-todolist-redux.pages.dev/",
+    codeLink: "https://github.com/maxjn/todolist-redux",
   },
   {
     id: 6,
     src: reactWeather,
-    demoLink: "",
-    codeLink: "",
+    demoLink: "https://maxjn-weather-forcast.pages.dev/",
+    codeLink: "https://github.com/maxjn/weather-forcast",
   },
 ];
 function Portfolio() {
@@ -74,12 +74,16 @@ function Portfolio() {
                 </figure>
                 <div className="flex items-center justify-center">
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     href={demoLink}
                     className=" inline-block text-center w-1/2 py-3 px-6 "
                   >
                     Demo
                   </a>
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     href={codeLink}
                     className=" inline-block text-center w-1/2 py-3 px-6 "
                   >
