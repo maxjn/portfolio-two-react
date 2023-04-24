@@ -3,8 +3,8 @@ import { MdArrowForwardIos } from "react-icons/md";
 
 function Home() {
   return (
-    <section className="pt-[5.5rem] pb-4 px-5  text-white bg-gradient-to-b from-black via-black to-gray-800 h-screen ">
-      <div className="container flex flex-col-reverse md:flex-row items-center justify-center max-w-screen-lg mx-auto h-full px-4 gap-6">
+    <section className="pt-[5.5rem] pb-4 px-10 lg:px-0  text-white bg-gradient-to-b from-black via-black to-gray-800 h-screen ">
+      <div className="container flex flex-col-reverse md:flex-row items-center justify-center max-w-screen-lg mx-auto h-full gap-6">
         {/* Hero Text */}
         <div>
           <h2 className="text-4xl font-bold md:text-5xl lg:text-7xl">
