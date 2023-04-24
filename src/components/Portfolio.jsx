@@ -47,7 +47,7 @@ function Portfolio() {
   return (
     <section
       name="portfolio"
-      className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white flex items-center px-10 lg:px-0"
+      className="w-full h-full py-20 md:py-0  md:h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white flex items-center px-10 lg:px-0"
     >
       <div className="max-w-screen-lg  mx-auto ">
         {/* Title */}
