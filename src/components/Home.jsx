@@ -18,11 +18,7 @@ function Home() {
           <p className="py-4 text-gray-500 max-w-md">
             I like to learn when I have some free time for myself.. ❤️ <br></br>
             I have a particular sensitivity to standard and clean coding.
-            <br></br> My main services are:
-            <li className="ml-7 font-bold">
-              {" "}
-              Creating Custom WordPress Themes
-            </li>
+            <br></br> My main service is:
             <li className="ml-7 font-bold"> Coding Fron-end </li>
             Let's have a chat and discuss more about how I could make your
             products and projects stand out from competitors!

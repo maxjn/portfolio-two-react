@@ -21,7 +21,7 @@ const socialLinks = [
         Github <FaGithub size={25} />
       </>
     ),
-    href: "mailto:maxjn763@gmail.com",
+    href: "https://github.com/maxjn",
     style: "",
     download: false,
   },
@@ -32,7 +32,7 @@ const socialLinks = [
         Email <MdOutlineMail size={25} />
       </>
     ),
-    href: "https://github.com/maxjn",
+    href: "mailto:maxjn763@gmail.com",
     style: "",
     download: false,
   },
@@ -43,7 +43,7 @@ const socialLinks = [
         Resume <BsFillPersonLinesFill size={25} />
       </>
     ),
-    href: "../assets/html.png",
+    href: "/resume.pdf",
     style: "rounded-br-md",
     download: true,
   },
