@@ -7,7 +7,7 @@ This Project was bootstrapped with [Vite](https://vitejs.dev/).
 
 ## Technologies
 
-- HTML,Tailwind
+- JSX,Tailwind
 - ES6
 - React
 - **react-icons** package for icons
