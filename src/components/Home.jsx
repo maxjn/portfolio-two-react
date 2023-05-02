@@ -6,7 +6,7 @@ function Home() {
   return (
     <section
       name="home"
-      className="pt-[5.5rem] pb-4 px-10 lg:px-0  text-white  bg-gradient-to-b from-black via-black to-gray-800 h-screen "
+      className="pt-[5.5rem] pb-4 px-10 lg:px-0  text-white  bg-gradient-to-b from-black via-black to-gray-800 h-fit md:h-screen "
     >
       <div className="container flex flex-col-reverse md:flex-row items-center justify-center max-w-screen-lg mx-auto h-full gap-6">
         {/* Hero Text */}
