@@ -32,7 +32,7 @@ const socialLinks = [
         Email <MdOutlineMail size={25} />
       </>
     ),
-    href: "mailto:maxjn763@gmail.com",
+    href: "mailto:mohamad.haqnegahdar@gmail.com",
     style: "",
     download: false,
   },

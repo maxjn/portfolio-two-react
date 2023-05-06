@@ -1,4 +1,4 @@
-import foodDashbard from "../assets/portfolio/foodDashboard.png";
+import userList from "../assets/portfolio/userlist.png";
 import socialDashboard from "../assets/portfolio/socialDashboard.png";
 import starwars from "../assets/portfolio/starwars.png";
 import momoryGame from "../assets/portfolio/memory-game.png";
@@ -8,9 +8,9 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg";
 const portfolios = [
   {
     id: 1,
-    src: foodDashbard,
-    demoLink: "https://maxjn-fooddashboard.pages.dev/",
-    codeLink: "https://github.com/maxjn/foodDashboard",
+    src: userList,
+    demoLink: "https://maxjn-userlist-next.vercel.app/",
+    codeLink: "https://github.com/maxjn/userlist-next",
   },
   {
     id: 2,

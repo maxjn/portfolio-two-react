@@ -24,7 +24,7 @@ function Home() {
             products and projects stand out from competitors!
             <br></br>
             <br></br> Best Regards,&nbsp;<br></br>
-            <b>Muhammad (Maxjn)</b>
+            <b>Mohamad Haqnegahdar</b>
           </p>
           <div>
             <Link
