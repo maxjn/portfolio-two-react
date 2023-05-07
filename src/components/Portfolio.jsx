@@ -1,5 +1,5 @@
 import userList from "../assets/portfolio/userlist.png";
-import socialDashboard from "../assets/portfolio/socialDashboard.png";
+import firechat from "../assets/portfolio/firechat.png";
 import starwars from "../assets/portfolio/starwars.png";
 import momoryGame from "../assets/portfolio/memory-game.png";
 import reduxTodolist from "../assets/portfolio/redux-todolist.png";
@@ -14,9 +14,9 @@ const portfolios = [
   },
   {
     id: 2,
-    src: socialDashboard,
-    demoLink: "https://maxjn-dashboardtemplate.pages.dev/",
-    codeLink: "https://github.com/maxjn/dashboardTemplate",
+    src: firechat,
+    demoLink: "https://maxjn-firechat.pages.dev/",
+    codeLink: "https://github.com/maxjn/firechat",
   },
   {
     id: 3,
