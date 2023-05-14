@@ -1,5 +1,5 @@
-import html from "../assets/html.png";
-import css from "../assets/css.png";
+import mongodb from "../assets/mongodb.png";
+import nodejs from "../assets/node-js.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
@@ -10,39 +10,39 @@ import tailwind from "../assets/tailwind.png";
 const techs = [
   {
     id: 1,
-    src: html,
-    title: "HTML",
-    style: "shadow-orange-500",
-  },
-  {
-    id: 2,
-    src: css,
-    title: "CSS",
-    style: "shadow-blue-500",
-  },
-  {
-    id: 3,
     src: javascript,
     title: "JavaScript",
     style: "shadow-yellow-500",
   },
   {
-    id: 4,
+    id: 2,
     src: reactImage,
     title: "React",
     style: "shadow-blue-600",
   },
   {
-    id: 5,
-    src: tailwind,
-    title: "Tailwind",
-    style: "shadow-sky-400",
-  },
-  {
-    id: 6,
+    id: 3,
     src: nextjs,
     title: "Next JS",
     style: "shadow-white",
+  },
+  {
+    id: 4,
+    src: mongodb,
+    title: "MongoDB",
+    style: "shadow-lime-600",
+  },
+  {
+    id: 5,
+    src: nodejs,
+    title: "NodeJS",
+    style: "shadow-lime-400",
+  },
+  {
+    id: 6,
+    src: tailwind,
+    title: "Tailwind",
+    style: "shadow-sky-400",
   },
   {
     id: 7,

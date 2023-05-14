@@ -1,7 +1,7 @@
 import userList from "../assets/portfolio/userlist.png";
 import firechat from "../assets/portfolio/firechat.png";
 import starwars from "../assets/portfolio/starwars.png";
-import momoryGame from "../assets/portfolio/memory-game.png";
+import promptopia from "../assets/portfolio/promptopia.png";
 import reduxTodolist from "../assets/portfolio/redux-todolist.png";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -26,9 +26,9 @@ const portfolios = [
   },
   {
     id: 4,
-    src: momoryGame,
-    demoLink: "https://maxjn-memory-game.pages.dev/",
-    codeLink: "https://github.com/maxjn/memmory-game-react",
+    src: promptopia,
+    demoLink: "https://maxjn-promptopia.vercel.app/",
+    codeLink: "https://github.com/maxjn/promptopia",
   },
   {
     id: 5,
