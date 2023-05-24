@@ -12,19 +12,19 @@ function About() {
         </div>
         <div>
           <p className="text-xl mt-20 pb-8">
-            I like to learn when I have some free time for myself.. ❤️ <br></br>
-            I have a particular sensitivity to standard and clean coding.
-            <br></br> My main services are:
-            <li className="ml-7 font-bold">
-              {" "}
-              Building stunning portfolio websites{" "}
-            </li>
-            <li className="ml-7 font-bold"> Front-end Web Development </li>
-            Let's have a chat and discuss more about how I could make your
-            products and projects stand out from competitors!
+            I'm Mohamad Haqnegahdar , aka Maxjn! 😃
+            <br></br>I specialize in <b>MERN</b> & <b>Nextjs</b> full-stack
+            development and always strive for <i>clean coding</i> practices.
+            <br></br> <b>My services</b> include building <i>stunning</i> &{" "}
+            <i>responsive to user needs </i>web applications.
             <br></br>
-            <br></br> Best Regards,&nbsp;<br></br>
-            <b>Mohamad Haqnegahdar</b>
+            Check out my work on GitHub or Linkedin! Let's chat about how we can
+            make your products stand out from the rest!
+            <br></br>
+            <br></br>{" "}
+            <i>
+              Best regards,<b> Mohamad Haqnegahdar</b>
+            </i>
           </p>
           <Link
             to="contact"

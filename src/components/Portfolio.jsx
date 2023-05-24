@@ -1,5 +1,5 @@
 import userList from "../assets/portfolio/userlist.png";
-import firechat from "../assets/portfolio/firechat.png";
+import myworkout from "../assets/portfolio/myworkout.png";
 import starwars from "../assets/portfolio/starwars.png";
 import promptopia from "../assets/portfolio/promptopia.png";
 import reduxTodolist from "../assets/portfolio/redux-todolist.png";
@@ -14,9 +14,9 @@ const portfolios = [
   },
   {
     id: 2,
-    src: firechat,
-    demoLink: "https://maxjn-firechat.pages.dev/",
-    codeLink: "https://github.com/maxjn/firechat",
+    src: myworkout,
+    demoLink: "https://maxjn-my-workout.vercel.app/",
+    codeLink: "https://github.com/maxjn/my-workout-mern",
   },
   {
     id: 3,

@@ -1,6 +1,6 @@
 import mongodb from "../assets/mongodb.png";
 import nodejs from "../assets/node-js.png";
-import javascript from "../assets/javascript.png";
+import typescript from "../assets/typescript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import sass from "../assets/sass.png";
@@ -9,10 +9,10 @@ import tailwind from "../assets/tailwind.png";
 
 const techs = [
   {
-    id: 1,
-    src: javascript,
-    title: "JavaScript",
-    style: "shadow-yellow-500",
+    id: 3,
+    src: nextjs,
+    title: "Next JS",
+    style: "shadow-white",
   },
   {
     id: 2,
@@ -21,11 +21,12 @@ const techs = [
     style: "shadow-blue-600",
   },
   {
-    id: 3,
-    src: nextjs,
-    title: "Next JS",
-    style: "shadow-white",
+    id: 1,
+    src: typescript,
+    title: "TypeScript",
+    style: "shadow-sky-700",
   },
+
   {
     id: 4,
     src: mongodb,
