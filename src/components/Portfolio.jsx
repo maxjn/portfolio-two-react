@@ -1,16 +1,16 @@
-import userList from "../assets/portfolio/userlist.png";
-import myworkout from "../assets/portfolio/myworkout.png";
-import starwars from "../assets/portfolio/starwars.png";
-import promptopia from "../assets/portfolio/promptopia.png";
-import reduxTodolist from "../assets/portfolio/redux-todolist.png";
+import portfolioBlog from "../assets/portfolio/portfolioBlog.jpg";
+import myworkout from "../assets/portfolio/myworkout.jpg";
+import starwars from "../assets/portfolio/starwars.jpg";
+import promptopia from "../assets/portfolio/promptopia.jpg";
+import reduxTodolist from "../assets/portfolio/redux-todolist.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const portfolios = [
   {
     id: 1,
-    src: userList,
-    demoLink: "https://maxjn-userlist-next.vercel.app/",
-    codeLink: "https://github.com/maxjn/userlist-next",
+    src: portfolioBlog,
+    demoLink: "https://maxjn-portfolio-blog.vercel.app/",
+    codeLink: "https://github.com/maxjn/portfolio-blog",
   },
   {
     id: 2,
