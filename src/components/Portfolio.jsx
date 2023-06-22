@@ -2,7 +2,7 @@ import portfolioBlog from "../assets/portfolio/portfolioBlog.jpg";
 import myworkout from "../assets/portfolio/myworkout.jpg";
 import starwars from "../assets/portfolio/starwars.jpg";
 import promptopia from "../assets/portfolio/promptopia.jpg";
-import reduxTodolist from "../assets/portfolio/redux-todolist.jpg";
+import airbnbClone from "../assets/portfolio/airbnbClone.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const portfolios = [
@@ -32,9 +32,9 @@ const portfolios = [
   },
   {
     id: 5,
-    src: reduxTodolist,
-    demoLink: "https://maxjn-todolist-redux.pages.dev/",
-    codeLink: "https://github.com/maxjn/todolist-redux",
+    src: airbnbClone,
+    demoLink: "https://maxjn-airbnb-clone.vercel.app/",
+    codeLink: "https://github.com/maxjn/airbnb-clone",
   },
   {
     id: 6,
