@@ -19,7 +19,7 @@ function Home() {
             <br></br>I specialize in <b>MERN</b> & <b>Nextjs</b> full-stack
             development and always strive for <i>clean coding</i> practices.
             <br></br>
-            <br></br> <b>My services</b> include building <i>stunning</i> &{" "}
+            <br></br> <b>My services</b> include building <i>efficient </i> &{" "}
             <i>responsive to user needs </i>web applications.
             <br></br>
             <br></br>

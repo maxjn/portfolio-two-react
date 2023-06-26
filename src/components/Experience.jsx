@@ -6,6 +6,7 @@ import nextjs from "../assets/nextjs.png";
 import sass from "../assets/sass.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import jest from "../assets/jest.png";
 
 const techs = [
   {
@@ -41,18 +42,24 @@ const techs = [
   },
   {
     id: 6,
+    src: jest,
+    title: "Testing",
+    style: "shadow-rose-800",
+  },
+  {
+    id: 7,
     src: tailwind,
     title: "Tailwind",
     style: "shadow-sky-400",
   },
   {
-    id: 7,
+    id: 8,
     src: sass,
     title: "Sass",
     style: "shadow-pink-400",
   },
   {
-    id: 8,
+    id: 9,
     src: github,
     title: "GitHub",
     style: "shadow-gray-400",
@@ -72,7 +79,7 @@ function Experience() {
             Experience
           </h3>
           <p className="py-6 text-xl">
-            These are the technologies I've worked with
+            These are the technologies I&apos;ve worked with
           </p>
         </div>
         <div>
