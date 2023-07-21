@@ -3,7 +3,7 @@ import myworkout from "../assets/portfolio/myworkout.jpg";
 import starwars from "../assets/portfolio/starwars.jpg";
 import promptopia from "../assets/portfolio/promptopia.jpg";
 import airbnbClone from "../assets/portfolio/airbnbClone.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import netflixClone from "../assets/portfolio/netflix-clone.jpg";
 
 const portfolios = [
   {
@@ -38,9 +38,9 @@ const portfolios = [
   },
   {
     id: 6,
-    src: reactWeather,
-    demoLink: "https://maxjn-weather-forcast.pages.dev/",
-    codeLink: "https://github.com/maxjn/weather-forcast",
+    src: netflixClone,
+    demoLink: "https://maxjn-netflix-clone.vercel.app/",
+    codeLink: "https://github.com/maxjn/netflix-clone",
   },
 ];
 function Portfolio() {
