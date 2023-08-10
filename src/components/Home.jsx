@@ -1,4 +1,4 @@
-import heroImage from "../assets/hero.jpg";
+import heroImage from "../assets/hero.webp";
 import { MdArrowForwardIos } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -13,7 +13,7 @@ function Home() {
         <div>
           <h2 className="text-4xl font-bold md:text-5xl lg:text-7xl">
             {" "}
-            I'm a Full stack Developer{" "}
+            I&apos;m a Full stack Developer{" "}
           </h2>
           <p className="py-4 text-gray-500 max-w-md">
             <br></br>I specialize in <b>MERN</b> & <b>Nextjs</b> full-stack
@@ -23,8 +23,8 @@ function Home() {
             <i>responsive to user needs </i>web applications.
             <br></br>
             <br></br>
-            Check out my work on GitHub or Linkedin! Let's chat about how we can
-            make your products stand out from the rest!
+            Check out my work on GitHub or Linkedin! Let&apos;s chat about how
+            we can make your products stand out from the rest!
             <br></br>
             <br></br>{" "}
             <i>

@@ -1,34 +1,22 @@
-import portfolioBlog from "../assets/portfolio/portfolioBlog.jpg";
-import myworkout from "../assets/portfolio/myworkout.jpg";
-import starwars from "../assets/portfolio/starwars.jpg";
-import promptopia from "../assets/portfolio/promptopia.jpg";
-import airbnbClone from "../assets/portfolio/airbnbClone.jpg";
-import netflixClone from "../assets/portfolio/netflix-clone.jpg";
+import ecommerceAdmin from "../assets/portfolio/Dashboard.webp";
+import myworkout from "../assets/portfolio/myworkout.webp";
+import starwars from "../assets/portfolio/starwars.webp";
+import EcommerceStore from "../assets/portfolio/Store.webp";
+import airbnbClone from "../assets/portfolio/airbnbClone.webp";
+import netflixClone from "../assets/portfolio/netflix-clone.webp";
 
 const portfolios = [
   {
-    id: 1,
-    src: portfolioBlog,
-    demoLink: "https://maxjn-portfolio-blog.vercel.app/",
-    codeLink: "https://github.com/maxjn/portfolio-blog",
-  },
-  {
-    id: 2,
-    src: myworkout,
-    demoLink: "https://maxjn-my-workout.vercel.app/",
-    codeLink: "https://github.com/maxjn/my-workout-mern",
-  },
-  {
-    id: 3,
-    src: starwars,
-    demoLink: "https://maxjn-starwars.pages.dev/people",
-    codeLink: "https://github.com/maxjn/starwars-react",
-  },
-  {
     id: 4,
-    src: promptopia,
-    demoLink: "https://maxjn-promptopia.vercel.app/",
-    codeLink: "https://github.com/maxjn/promptopia",
+    src: ecommerceAdmin,
+    demoLink: "https://maxjn-ecommerce-admin.vercel.app/",
+    codeLink: "https://github.com/maxjn/ecommerce-admin",
+  },
+  {
+    id: 1,
+    src: EcommerceStore,
+    demoLink: "https://maxjn-ecommerce-store.vercel.app/",
+    codeLink: "https://github.com/maxjn/ecommerce-store",
   },
   {
     id: 5,
@@ -41,6 +29,18 @@ const portfolios = [
     src: netflixClone,
     demoLink: "https://maxjn-netflix-clone.vercel.app/",
     codeLink: "https://github.com/maxjn/netflix-clone",
+  },
+  {
+    id: 2,
+    src: myworkout,
+    demoLink: "https://maxjn-my-workout.vercel.app/",
+    codeLink: "https://github.com/maxjn/my-workout-mern",
+  },
+  {
+    id: 3,
+    src: starwars,
+    demoLink: "https://maxjn-starwars.pages.dev/people",
+    codeLink: "https://github.com/maxjn/starwars-react",
   },
 ];
 function Portfolio() {
